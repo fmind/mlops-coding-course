@@ -1,8 +1,6 @@
 # Hosts that answer a link checker with 403 or 429 rather than the page a reader gets.
 # These are not broken links: they are anti-bot measures and rate limits. Keeping them
 # out means a finding in `mise run check:links` is worth acting on.
-https://medium\.com/.*
-https://.*\.medium\.com/.*
 https://.*\.readthedocs\.io/.*
 https://www\.reddit\.com/.*
 https://neptune\.ai/.*
