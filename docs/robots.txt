@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mlops-coding-course.fmind.dev/sitemap.xml

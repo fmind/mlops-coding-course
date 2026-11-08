@@ -30,8 +30,8 @@ All work goes through `mise` (see `mise.toml`); git hooks (`lefthook.yml`) and C
 
 ## Repository layout
 
-- `docs/` — course chapters (`0. Overview` → `7. Observability`), `assets/`, and `CNAME` (custom domain, copied into the built site).
-- `mkdocs.yml` — site configuration (Zensical classic theme, preserved `.html` URLs, `strict: true`); `pyproject.toml` — Zensical dependencies and the `dev` dependency group (`uv`, `package = false`).
+- `docs/` — course chapters (`0. Overview` → `7. Observability`), `assets/`, plus `CNAME` (custom domain) and `robots.txt`, both copied into the built site.
+- `mkdocs.yml` — site configuration (Zensical classic theme, preserved `.html` URLs, `strict: true`, `redirects` from retired lesson URLs to their replacements, so indexed links keep working); `pyproject.toml` — Zensical dependencies and the `dev` dependency group (`uv`, `package = false`).
 - `mise.toml` / `mise.lock` — tasks and pinned tools; `lefthook.yml` — git hooks; `dprint.jsonc` — config/markup formatter; `trivy.yaml` — scanner policy; `cliff.toml` — changelog.
 
 ## GitHub configuration

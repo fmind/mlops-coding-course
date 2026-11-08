@@ -21,6 +21,15 @@ validation:
     unrecognized_links: warn
 use_directory_urls: false
 
+# Plugins
+plugins:
+  # Retired lessons keep their indexed URLs and point to their replacements.
+  redirects:
+    redirect_maps:
+      "1. Initializing/archives/1.2. pyenv.md": "1. Initializing/1.2. uv.md"
+      "1. Initializing/archives/1.3. Poetry.md": "1. Initializing/1.3. uv (project).md"
+      "5. Refining/archives/5.1. PyInvoke.md": "5. Refining/5.1. Task Automation.md"
+
 # Theme
 theme:
   name: material
